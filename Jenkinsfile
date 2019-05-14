@@ -19,6 +19,7 @@ pipeline {
 
         stage ('Tests'){
             steps {
+              sh 'echo "Test"'
                 //sh """
                 //     mkdir -p selenium-screenshots/error
                 //     /usr/bin/mvn -B -f selenium/pom.xml clean test -X
